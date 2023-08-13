@@ -1,0 +1,27 @@
+.Header{
+    min-height: 10vh;
+    background-color: lavender;
+    padding: 1em;
+    width: 90%;
+}
+.home{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.navBtn{
+    border: solid 1px black;
+    padding: 0.5em;
+    border-radius: 10%;
+    margin: 0.3em;
+    background-color: rgb(239, 239, 249);
+    text-decoration: none;
+}
+.navBtn:hover{
+    background-color: lavender;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+}
