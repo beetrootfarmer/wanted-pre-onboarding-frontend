@@ -58,7 +58,7 @@ function Signup() {
 
     return (
       <div className="Signup">
-          <h1>회원가입페이지입니다</h1>
+          <h1 className='pageTitle'>회원가입</h1>
           <form>
             <input 
               type="email" 
@@ -89,6 +89,7 @@ function Signup() {
               <p>비밀번호는 8자리 이상으로 설정해주세요.</p>  
             }
             <button 
+              className='formBtn'
               data-testid="signup-button"
               disabled={!formValid}
               onClick={handleSignup}
@@ -97,7 +98,11 @@ function Signup() {
       </div>
     );
   }
-  // TODO : 👍 이메일과 비밀번호의 유효성 검사
+  export default Signup;
+
+
+
+// TODO : 👍 이메일과 비밀번호의 유효성 검사
 //   이메일 조건: @ 포함
 // 비밀번호 조건: 8자 이상
 // 이메일과 비밀번호의 유효성 검사 조건은 별도의 추가 조건 부여 없이 위의 조건대로만 진행해주세요 (e.g. 비밀번호 유효성 검사에 특수문자 포함 등의 새로운 조건을 추가하는 행위, 비밀번호 확인 조건을 추가하는 행위 등은 지양해주세요)
@@ -117,7 +122,5 @@ function Signup() {
 // body: 없음
 // TODO : 👍 Assignment 2
 // 회원가입 페이지에서 버튼을 클릭 시 회원가입을 진행하고 회원가입이 정상적으로 완료되었을 시 /signin 경로로 이동해주세요
-  export default Signup;
-
   // TODO :👍 추가
   // 이메일 유효성 확인 => 요청 보냈을 때 이미 존재하는 이메일입니다 라는 답이 오면 알림 띄우기

@@ -96,8 +96,8 @@ function Todo() {
    
     return (
       <div className="TodoBox">
-          <h1>투두~</h1>
-          <div className='inputBox'>
+          <h1>what to do~</h1>
+          <div className='inputBox todo'>
             <input 
               className='inputBox'
               data-testid="new-todo-input"

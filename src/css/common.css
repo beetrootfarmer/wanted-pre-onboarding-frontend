@@ -2,18 +2,19 @@
     width: 90%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
 .inputBox{
-    height: 2em;
-    width: 50%;
+    height: 2.5em;
+    width: 70%;
+    margin-bottom: 2%;
+    border-radius: 10px;
 }
 .todoList{
     width: 100%;
 }
 .todo {
-    width: 100%;
     padding: 0.5em;
 }
 .btn{
@@ -26,4 +27,14 @@
 }
 .btn:hover{
     background-color: lavender;
+}
+.formBtn{
+    display: block;
+    min-width : 73%;
+    height: 2.5rem;
+    border-radius: 10px;
+}
+
+.Signup, .Signin {
+    min-width : 300px;
 }

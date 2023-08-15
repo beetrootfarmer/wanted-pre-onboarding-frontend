@@ -19,7 +19,7 @@ function Header() {
   })
     return (
       <div className="Header">
-          <NavLink to="/" className="home"><h1>메인</h1></NavLink>
+          <NavLink to="/" className="home"><h1>wtd</h1></NavLink>
           <div className="nav">
             {
               isUser?

@@ -2,7 +2,9 @@
     min-height: 10vh;
     background-color: lavender;
     padding: 1em;
-    width: 90%;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .home{
     width: 100%;
@@ -24,4 +26,5 @@
 .nav{
     display: flex;
     justify-content: right;
+    padding:1em;
 }

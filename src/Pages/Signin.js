@@ -31,7 +31,7 @@ function Signin() {
   })
     return (
       <div className="Signin">
-          <h1>로그인페이지입니다</h1>
+          <h1 className='pageTitle'>로그인</h1>
           <form>          
             <input 
               data-testid="email-input" 
@@ -52,6 +52,7 @@ function Signin() {
               }}
             />
             <button 
+              className='formBtn'
               data-testid="signin-button"
               onClick={handleSignin}
             >로그인</button>
@@ -62,6 +63,7 @@ function Signin() {
   
   export default Signin;
 
+  
   // TODO : 👍 Assignment 3 
 // 로그인 페이지에서 버튼을 클릭 시, 로그인을 진행하고 로그인이 정상적으로 완료되었을 시 /todo 경로로 이동해주세요
 
